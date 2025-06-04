@@ -1,0 +1,36 @@
+.image {
+    position: relative;
+}
+
+.titel {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: aliceblue;
+}
+
+.text {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: aliceblue;
+}
+
+.tide {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    padding: 10px;
+
+}
+.tide1{
+    border-bottom: 2px solid #000000;
+    padding: 5px;
+    
+}
+.list-unstyled a{
+    color: #000;
+}
+.list-unstyled a:hover{
+    color: #64d8de;
+
+

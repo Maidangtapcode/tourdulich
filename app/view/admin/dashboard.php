@@ -1,0 +1,1 @@
+<h3>welcom to dashborad <a href="<?php echo BASE_URL?>login/logout">Đăng xuất</a></h3>

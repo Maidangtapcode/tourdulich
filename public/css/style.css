@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.img-bgg{
+    position: relative;
+}
+.navbar-header{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.new-hotel-cantho{
+    padding: 0px 8px 8px;
+    margin-top: 16px;  
+}

@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight:400;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    background: #ececec;
+}
+
+.nav .nav-underline li {
+    margin-right: 10px;
+}
+
+.nav-item .icon3gach {
+    display: none !important;
+}
+
+.nav-item .nav-link,
+.nav-item .fg-login {
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.material-symbols-outlined {
+    padding-top: 2px;
+}
+
+.login-navbar {
+    color: #fff;
+    text-decoration: none;
+}
+
+.lg-us-navbar {
+    min-width: 264px;
+    height: auto;
+    padding: 8px 0px;
+    display: none;
+    position: absolute;
+    z-index: 1001;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+    position: relative;
+    margin: 0 auto;
+}
+
+.lg-us-container {
+    background-color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.lg-us {
+    list-style-type: none;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.lg-us-01 {
+    padding: 10px 20px;
+}
+
+.btn-lg-us {
+    width: 100%;
+    color: #fff;
+    background-color: #07df90;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.lg-us-02 {
+    padding: 0px 20px 5px 20px;
+}
+
+.user-name-header {
+    color: #fff;
+    line-height: 21px;
+    max-width: 120px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.navbar-custom {
+    display: flex;
+    align-items: center;
+}
+
+.img-background {
+    position: relative;
+    width: auto;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.img-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0px;
+
+}
+
+.top-banner {
+    position: absolute;
+    top: 25%;
+    color: #fff;
+    font-weight: bold;
+    /* top: 5%; */
+    margin-left: 5px;
+    bottom: 0;
+    right: 5%;
+    width: auto;
+    justify-items: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.top-banner-address {
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    width: 580px;
+    border-radius: 10px;
+}
+
+.form-banner {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.input-icon {
+    position: relative;
+    width: 100%;
+}
+
+.icon-address {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    box-sizing: border-box;
+}
+
+.icon-01 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+input {
+    border-radius: 5px;
+    border: none
+}
+
+.form-bg {
+    width: 550px;
+    height: auto;
+    margin-top: 10px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    width: 100%;
+    gap: 10px;
+}
+
+.input-icon-1 {
+    height: auto;
+    margin-top: 10px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+    gap: 10px;
+}
+
+.icon-address-1 {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    box-sizing: border-box;
+}
+
+.icon-time-1 {
+    padding: 10px 10px 10px 40px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.icon-time {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+}
+
+.icon-find {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #5fc7ff;
+    color: #fff;
+}
+
+.time-01 {
+    margin-right: 5px;
+}
+
+.time-02 {
+    margin: 0px 5px;
+}
+
+@media screen and (max-width:789px) {
+    .nav-item a:not(.icon3gach, .a-login) {
+        display: none;
+    }
+
+    .fg-login {
+        margin-top: 10px;
+    }
+
+    .nav-item .icon3gach {
+        display: block !important;
+    }
+}
+
+@media (max-width:740px) {
+    .top-banner-address {
+        width: 70%;
+    }
+
+    .input-icon {
+        width: 100%;
+    }
+
+    .input-icon-1 {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .form-banner {
+        grid-template-rows: 1fr;
+    }
+
+    .form-bg {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .name-address h3 {
+        font-size: 15px;
+        margin: 0;
+    }
+}
+
+@media (max-width:344px) {
+    .name-address h3 {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .name-address span {
+        font-size: 9px;
+    }
+
+    .top-banner-address {
+        width: 240px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .tour-hot-ul,
+    .tour-star {
+        font-size: 14px;
+    }
+}
+
+.navbar {
+    background: transparent;
+    /* Đặt màu nền của navbar là trong suốt */
+    z-index: 1000;
+    /* Đặt z-index cao để navbar hiển thị phía trên */
+    width: 100%;
+    position: absolute;
+    /* Đặt navbar ở vị trí tuyệt đối */
+}
+
+.bg-image-vemaybay {
+    background-image: url('../img/bg-vemaybay.jpeg');
+}
+
+.bg-image-vemaybay {
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+}
+
+.row-row {
+    display: flex;
+}
+
+.col-30 {
+    flex: 0 0 30%;
+    padding: 10px;
+}
+
+.col-70 {
+    flex: 0 0 70%;
+    padding: 10px;
+}
+
+.title-bg-tour {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    left: 40%;
+}
+
+.list-unstyled .plane-ticket img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.plane-ticket {
+    height: 400px;
+    width: auto;
+    display: inline-block;
+    position: relative;
+}
+.plane-ticket-body {
+    background-color: #058CB3AA;
+    position: absolute;
+    bottom: 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family:Helvetica;
+    width: 100%;
+    height: 200px;
+
+}
+.plane-ticket-body p {
+    margin-bottom: 0;
+}
+.plane-ticket-body .plane-ticket-from {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.plane-ticket-body .plane-ticket-to {
+    position: absolute;
+    top: 45px;
+    left: 16px;
+}
+
+.plane-ticket-body .plane-ticket-day {
+    position: absolute;
+    top: 70px;
+    left: 16px;
+    font-size: 14px;
+}
+
+.plane-ticket-body .plane-ticket-titel {
+    position: absolute;
+    right: 16px;
+    bottom: 35px;
+}
+
+.plane-ticket-body .plane-ticket-text {
+    position: absolute;
+    right: 16px;
+    bottom: 20px;
+    font-size: 11px;
+}
+
+@media (max-width : 575px) {
+    .plane-ticket {
+        margin: 0px 40px;
+    }
+}
+
+@media (max-width : 450px) {
+    .plane-ticket {
+        margin: 0px 0px;
+    }
+}
+
+
+.plane-ticket-body1{
+    position: absolute;
+    bottom: 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Helvetica;
+    width: 100%;
+    height: 200px;
+
+}
+.plane-ticket-body1 .plane-ticket-titel1, .plane-ticket-text1{
+    position: absolute;
+    left: 16px;
+    bottom: 0;
+}
+.plane-ticket-text1 p{
+    font-size: 16px ;
+}
+.text-center i{
+    font-size: 20px;
+}
+.btn{
+    width: 100%;
+    padding: 20px 15px;
+    margin: 5px 0;
+}
+.btn-support{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #5fc7ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-support a{
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+#icon {
+    cursor: pointer;
+  }
+  
+  /* Hộp thoại popup */
+  .popup {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;  /* Ban đầu ẩn */
+    z-index: 9999;  /* Đảm bảo nằm trên các phần tử khác */
+    width: 300px;   /* Đặt chiều rộng cố định cho popup */
+    box-sizing: border-box; /* Đảm bảo tính toán padding vào trong width */
+  }
+  
+  /* Định dạng cho popup content */
+  .popup-content {
+    max-width: 300px;
+  }
+  /* Đặt ảnh lớn làm nền của modal */
+.model-contai{
+    position: relative;
+    height: 250px;
+}
+
+.main-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Đảm bảo ảnh lớn không bị méo */
+}
+
+/* Định vị ảnh nhỏ */
+.small-img {
+    position: absolute;
+    top: 74%; /* Nửa trên của ảnh nhỏ nằm ngoài ảnh lớn */
+    left: 15%; /* Đặt ảnh nhỏ ở giữa */
+    transform: translateX(-50%); /* Căn giữa ảnh nhỏ theo chiều ngang */
+    width: 80px; /* Điều chỉnh kích thước ảnh nhỏ */
+    height: 80px; /* Chiều cao của ảnh nhỏ */
+    object-fit: cover; /* Đảm bảo ảnh nhỏ không bị méo */
+    border-radius: 50px;
+    border: 2px solid #fff;
+}
+.nameuser{
+    position: absolute;
+    top: 86%; /* Nửa trên của ảnh nhỏ nằm ngoài ảnh lớn */
+    left: 25%; /* Đặt ảnh nhỏ ở giữa */
+    width: 80px; /* Điều chỉnh kích thước ảnh nhỏ */
+    height: 80px; /* Chiều cao của ảnh nhỏ */
+    object-fit: cover; /* Đảm bảo ảnh nhỏ không bị méo */
+    border-radius: 50px;
+}
